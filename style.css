@@ -87,17 +87,17 @@ div button{
   cursor: pointer;
   margin-left: 29px;
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (max-width: 968px) {
   .cabecalho{
     display: flex;
-  flex-direction: row;
-  position: absolute;
-  bottom: 500px;
-  left: 0px;
+    flex-direction: row;
+    position: absolute;
+    bottom: 500px;
+    left: 0px;
   }
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 600px) {
   .cabecalho{
     display: none;
   }
