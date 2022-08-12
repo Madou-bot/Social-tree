@@ -20,7 +20,7 @@ body{
   display: flex;
   flex-direction: row;
   position: absolute;
-  bottom: 555px;
+  bottom: 500px;
   left: 0px;
 }
 .cabecalho img {
@@ -86,4 +86,19 @@ div button{
   height: 45px;
   cursor: pointer;
   margin-left: 29px;
+}
+@media only screen and (min-width: 720px) {
+  .cabecalho{
+    display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 500px;
+  left: 0px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .cabecalho{
+    display: none;
+  }
 }
