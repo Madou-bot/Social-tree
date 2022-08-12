@@ -1,0 +1,89 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  padding: 200px;
+  background-color: var(--body-bg-color);
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 555px;
+  left: 0px;
+}
+.cabecalho img {
+  width: 64px;
+  height: 64px;
+  border: none;
+}
+
+.cabecalho h1{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  margin-left: 10px;
+}
+.cabecalho span{
+  color: var(--body-bg-color);
+  background-color: var(--purple);
+  border-radius: 8px;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;  
+}
+
+div img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--purple);
+  padding: 1px;
+}
+
+div p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  color: var(--purple);
+  margin-top: 19px;
+  margin-bottom: 33px;
+}
+
+div button{
+  width: 326px;
+  height: 45px;
+  margin-bottom: 29px;
+  cursor: pointer;
+  color: var(--purple);
+  border-color: var(--purple);
+  border-radius: 4px;
+}
+
+.special{
+  display: flex;
+  flex-direction: row;;
+  font-family: 'Poppins', sans-serif;
+}
+
+.special i{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  margin-left: 29px;
+}
